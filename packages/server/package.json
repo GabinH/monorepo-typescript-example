@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "name": "@monorepo/server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@monorepo/common": "1.0.0"
+  }
+}

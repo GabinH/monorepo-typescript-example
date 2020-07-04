@@ -1,0 +1,14 @@
+{
+  "name": "@monorepo/monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:common": "cd packages/common && tsc",
+    "build:server": "cd packages/server && tsc",
+    "start": "yarn build:common && yarn build:server && yarn start:server",
+    "start:server": "cd packages/server && yarn start"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

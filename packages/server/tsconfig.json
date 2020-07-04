@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig",
+  "compilerOptions": {
+    "outDir": "dist",
+    "baseUrl": "../../"
+  },
+  "references": [
+    {
+      "path": "../common"
+    }
+  ],
+  "include": ["src", "test"]
+}
